@@ -1,0 +1,12 @@
+---
+title: "About"
+---
+
+Current members of the SciLifeLab IDS Architecture Board:
+
+- Johan Viklund (NBIS)
+- Johannes Alneberg (NGI)
+- Jonas Hagberg (DC/NBIS)
+- Jonas Söderberg (NBIS-SCoRe)
+- Jonas Windhager (NBIS-BIIF)
+- Konstantin Dossis (DC)

@@ -1,0 +1,5 @@
+---
+title: "SciLifeLab IDS Architecture Board"
+---
+
+Welcome to the homepage of the SciLifeLab Integrated Data Services (IDS) Architecture Board.

@@ -1,0 +1,24 @@
+project:
+  type: website
+website:
+  title: "SciLifeLab IDS Architecture Board"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - procedure.qmd
+      - decisions.qmd
+      - about.qmd
+  sidebar:
+    - id: decisions
+      style: docked
+      contents: decisions
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+execute:
+  freeze: auto

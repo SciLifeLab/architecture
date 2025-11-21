@@ -1,0 +1,6 @@
+---
+title: "Decisions"
+sidebar: decisions
+---
+
+This section contains all Architecture Decision Records (ADRs) of the SciLifeLab IDS Architecture Board.

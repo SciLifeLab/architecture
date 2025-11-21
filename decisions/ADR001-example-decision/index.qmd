@@ -1,0 +1,5 @@
+---
+title: "ADR001: Example decision"
+---
+
+This is an example decision.

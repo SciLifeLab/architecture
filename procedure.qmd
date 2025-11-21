@@ -1,0 +1,5 @@
+---
+title: "Procedure"
+---
+
+This page outlines the decision making procedure of the SciLifeLab IDS Architecture Board.
