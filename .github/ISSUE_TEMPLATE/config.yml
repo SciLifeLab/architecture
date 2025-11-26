@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📚 Documentation
+    url: https://scilifelab.github.io/architecture/
+    about: Read our process documentation and existing decisions
+  - name: 💬 Direct Contact
+    url: mailto:architecture@scilifelab.se
+    about: Email the architecture board directly
