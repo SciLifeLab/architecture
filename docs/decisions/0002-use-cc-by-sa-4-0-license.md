@@ -43,4 +43,4 @@ We will use the Creative Commons Attribution-ShareAlike 4.0 International (CC BY
 
 ## References
 
-- [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)f
+- [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
