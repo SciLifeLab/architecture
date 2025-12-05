@@ -17,18 +17,13 @@ The Architecture Board provides technical governance and guidance for SciLifeLab
 ## What We Do
 
 ```mermaid
-
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#a7c947', 'primaryTextColor': '#1a1a1a', 'primaryBorderColor': '#8bb030', 'lineColor': '#045c64', 'secondaryColor': '#e8f5e9', 'tertiaryColor': '#f5f5f5', 'fontFamily': 'Open Sans'}}}%%
 graph LR
     A[Project Team] -->|Question| B[Architecture Board]
     B -->|Guidance| A
     B -->|Decision| C[ADR]
     C -->|Published| D[Documentation]
     D -->|Informs| A
-
-    style A fill:#f5f5f5,stroke:#045C64,stroke-width:2px
-    style B fill:#A7C947,stroke:#8BB030,stroke-width:3px
-    style C fill:#e8f5e9,stroke:#A7C947,stroke-width:2px
-    style D fill:#e8f5e9,stroke:#A7C947,stroke-width:2px
 ```
 
 ### :material-compass: Architecture Guidance

@@ -24,15 +24,12 @@ Use a **single unified process** where formality emerges naturally from impact.
 **Process:**
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#a7c947', 'primaryTextColor': '#1a1a1a', 'primaryBorderColor': '#8bb030', 'lineColor': '#045c64', 'secondaryColor': '#e8f5e9', 'tertiaryColor': '#f5f5f5', 'fontFamily': 'Open Sans'}}}%%
 flowchart LR
     A[Open Issue] --> B{Discussion<br/>Time varies}
     B -->|Simple| C[Close with<br/>Answer]
     B -->|Complex| D[Create ADR PR]
     D --> E[Publish]
-
-    style A fill:#e1f5ff
-    style D fill:#fff4e1
-    style E fill:#e8f5e9
 ```
 
 **Key insight:** Same process, different discussion length based on natural impact.
