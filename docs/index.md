@@ -60,9 +60,9 @@ Facilitate collaboration to ensure coherent architecture across SciLifeLab.
 | Johan Viklund     | NBIS        | Technical Expert                                                                                                     |
 | Jonas Söderberg   | NBIS SCoRe  | Technical Expert                                                                                                     |
 | Johannes Alneberg | NGI         | Technical Expert                                                                                                     |
-| Jonas Windhager   | NBIS-BIIF   | Technical Expert                                                                                                     |
+| Jonas Windhager   | NBIS BIIF   | Technical Expert                                                                                                     |
 
-_Adjunct members: Björn Nystedt, Hanna Kultima (IDS PMT)_
+_Adjunct members: Björn Nystedt, Hanna Kultima (Integrated Data Services Project Management Team)_
 
 ## Get Involved
 
