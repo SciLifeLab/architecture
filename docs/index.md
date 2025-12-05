@@ -7,7 +7,7 @@ The Architecture Board provides technical governance and guidance for SciLifeLab
 !!! question "Need Architecture Help?"
 
     - No question too small
-    - Response within 2 weeks
+    - We aim to respond promptly
     - Early guidance prevents expensive mistakes
 
     [:octicons-issue-opened-16: Open an Issue](https://github.com/SciLifeLab/architecture/issues/new?template=architecture-question.md){ .md-button .md-button--primary }
