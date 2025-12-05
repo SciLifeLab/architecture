@@ -29,7 +29,7 @@
     
     
       
-        <title>3. Use Single-Process Approach for Architecture Requests - SciLifeLab Architecture Board</title>
+        <title>3. Use Single-Process Approach for Architecture Requests - SciLifeLab Architecture</title>
       
     
     
@@ -96,7 +96,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="SciLifeLab Architecture Board" class="md-header__button md-logo" aria-label="SciLifeLab Architecture Board" data-md-component="logo">
+    <a href="../.." title="SciLifeLab Architecture" class="md-header__button md-logo" aria-label="SciLifeLab Architecture" data-md-component="logo">
       
   <img src="../../assets/logo.png" alt="logo">
 
@@ -109,7 +109,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            SciLifeLab Architecture Board
+            SciLifeLab Architecture
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -285,12 +285,12 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="SciLifeLab Architecture Board" class="md-nav__button md-logo" aria-label="SciLifeLab Architecture Board" data-md-component="logo">
+    <a href="../.." title="SciLifeLab Architecture" class="md-nav__button md-logo" aria-label="SciLifeLab Architecture" data-md-component="logo">
       
   <img src="../../assets/logo.png" alt="logo">
 
     </a>
-    SciLifeLab Architecture Board
+    SciLifeLab Architecture
   </label>
   
     <div class="md-nav__source">
@@ -771,15 +771,12 @@
 <h2 id="decision">Decision<a class="headerlink" href="#decision" title="Permanent link">&para;</a></h2>
 <p>Use a <strong>single unified process</strong> where formality emerges naturally from impact.</p>
 <p><strong>Process:</strong></p>
-<pre class="mermaid"><code>flowchart LR
+<pre class="mermaid"><code>%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#a7c947', 'primaryTextColor': '#1a1a1a', 'primaryBorderColor': '#8bb030', 'lineColor': '#045c64', 'secondaryColor': '#e8f5e9', 'tertiaryColor': '#f5f5f5', 'fontFamily': 'Open Sans'}}}%%
+flowchart LR
     A[Open Issue] --&gt; B{Discussion&lt;br/&gt;Time varies}
     B --&gt;|Simple| C[Close with&lt;br/&gt;Answer]
     B --&gt;|Complex| D[Create ADR PR]
-    D --&gt; E[Publish]
-
-    style A fill:#e1f5ff
-    style D fill:#fff4e1
-    style E fill:#e8f5e9</code></pre>
+    D --&gt; E[Publish]</code></pre>
 <p><strong>Key insight:</strong> Same process, different discussion length based on natural impact.</p>
 <p><strong>Label:</strong> <code>architecture-question</code></p>
 <p><strong>Optional:</strong> <code>high-impact</code>, <code>urgent</code></p>

@@ -75,7 +75,7 @@
   color: #c5db7a;
 }
 
-/* Buttons */
+/* Buttons - Primary (lime) */
 .md-typeset .md-button--primary {
   background-color: #a7c947;
   border-color: #a7c947;
@@ -85,6 +85,21 @@
 .md-typeset .md-button--primary:hover {
   background-color: #8bb030;
   border-color: #8bb030;
+}
+
+/* Buttons - Secondary in dark mode: Teal with white text */
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary) {
+  background-color: #045c64;
+  border-color: #045c64;
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"]
+  .md-typeset
+  .md-button:not(.md-button--primary):hover {
+  background-color: #067a85;
+  border-color: #067a85;
+  color: #ffffff;
 }
 
 /* Footer */
