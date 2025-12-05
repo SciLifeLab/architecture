@@ -76,7 +76,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/scilifelab
+      link: https://github.com/SciLifeLab
     - icon: fontawesome/solid/globe
       link: https://scilifelab.se
   generator: false

@@ -65,8 +65,8 @@ The Architecture Board welcomes input from all SciLifeLab teams and the broader 
 
 !!! tip "How to Contribute"
 
-    1. **Not sure yet?** Start a [GitHub Discussion](https://github.com/scilifelab/architecture/discussions) or email [architecture@scilifelab.se](mailto:architecture@scilifelab.se)
-    2. **Have a question?** Open a [GitHub Issue](https://github.com/scilifelab/architecture/issues) to get guidance
+    1. **Not sure yet?** Start a [GitHub Discussion](https://github.com/SciLifeLab//architecture/discussions) or email [architecture@scilifelab.se](mailto:architecture@scilifelab.se)
+    2. **Have a question?** Open a [GitHub Issue](https://github.com/SciLifeLab/architecture/issues) to get guidance
     3. **Proposing a change?** Create an ADR following our [template](decisions/0001-record-architecture-decisions.md)
     4. **Found an issue?** Submit a pull request with your suggested improvements
 
