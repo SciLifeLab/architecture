@@ -1,6 +1,6 @@
 # SciLifeLab Architecture
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 Technical architecture governance for SciLifeLab infrastructure - ensuring interoperability, standards, and sustainable design
 
