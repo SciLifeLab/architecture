@@ -1,0 +1,17 @@
+#!/bin/bash
+# Wrapper for adr-new that formats ADR identifiers as ADR-0001, ADR-0002, etc.
+set -e
+
+# Create the ADR using the standard tool
+output=$(adr new "$@")
+
+if [ -n "$output" ] && [ -f "$output" ]; then
+    # Extract the number from filename (e.g., 0002 from 0002-some-title.md)
+    filename=$(basename "$output")
+    padded_num=$(echo "$filename" | grep -oE '^[0-9]+')
+    
+    # Replace "ADR-N." with "ADR-000N." in the file
+    sed -i "s/^# ADR-[0-9]\+\./# ADR-${padded_num}./" "$output"
+    
+    echo "$output"
+fi
