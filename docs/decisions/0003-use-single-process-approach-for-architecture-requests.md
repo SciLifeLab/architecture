@@ -1,4 +1,4 @@
-# 3. Use Single-Process Approach for Architecture Requests
+# ADR-0003. Use Single-Process Approach for Architecture Requests
 
 Date: 2025-11-26
 
