@@ -1,4 +1,4 @@
-# 2. Use CC BY-SA 4.0 License for Documentation
+# ADR-0002. Use CC BY-SA 4.0 License for Documentation
 
 Date: 2025-11-25
 
@@ -11,6 +11,7 @@ Accepted
 The SciLifeLab Architecture Board documentation will be developed collaboratively across multiple institutions. Without explicit licensing, ownership and reuse rights are unclear.
 
 We need a license that:
+
 - Provides multi-institutional legal clarity
 - Ensures governance improvements remain open
 - Prevents proprietary capture of community standards
@@ -35,7 +36,6 @@ We will use the Creative Commons Attribution-ShareAlike 4.0 International (CC BY
 - **Not suitable for code**: Any code examples should be licensed separately under a software license
 - **Compatibility considerations**: Share-alike requirement may limit how others can combine our documentation with other licensed content
 - **No warranty disclaimer**: Users should be aware that architectural decisions are provided "as-is" without guarantees of suitability
-
 
 - The license file (LICENSE) has been added to the repository root
 - A license badge and information have been added to the README
