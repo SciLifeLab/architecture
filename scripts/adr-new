@@ -11,7 +11,7 @@ if [ -n "$output" ] && [ -f "$output" ]; then
     padded_num=$(echo "$filename" | grep -oE '^[0-9]+')
     
     # Replace "ADR-N." with "ADR-000N." in the file
-    sed -i "s/^# ADR-[0-9]\+\./# ADR-${padded_num}./" "$output"
+    sed -i -E "s/^# ADR-[0-9]+\./# ADR-${padded_num}./" "$output"
     
     echo "$output"
 fi
