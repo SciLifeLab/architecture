@@ -1,4 +1,4 @@
-# 4. Use MkDocs Material for Documentation Site
+# ADR-0004. Use MkDocs Material for Documentation Site
 
 Date: 2025-11-28
 
