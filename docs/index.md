@@ -61,7 +61,7 @@ _Adjunct members: Björn Nystedt, Hanna Kultima (Integrated Data Services Projec
 
 ## Get Involved
 
-The Architecture Board welcomes input from all SciLifeLab teams and the broader community. Whether you have a technical proposal, an architecture concern, or need guidance on a decision, we're here to help.
+The Architecture Board welcomes input from all SciLifeLab teams and the broader academic community. Whether you have a technical proposal, an architecture concern, or need guidance on a decision, we're here to help.
 
 !!! tip "How to Contribute"
 
