@@ -1,14 +1,14 @@
 ---
 name: Architecture Question
 about: Ask the architecture board for guidance or consultation
-title: ''
+title: ""
 labels: architecture-question
-assignees: ''
+assignees: ""
 ---
 
 ## What do you need help with?
 
-<!-- 
+<!--
 No question is too small! We'd rather you ask early than fix expensive mistakes later.
 
 Examples:
@@ -16,6 +16,10 @@ Examples:
 - "How do I integrate with the user portal?"
 - "Is there a standard for sample metadata?"
 - "Can you review my design?"
+- "Is there an existing solution for X that I should build upon"
+- "Has another team already solved this problem?"
+- "What are other groups doing for authentication that I could align with?"
+- "Are there existing patterns or libraries I should reuse for this?"
 -->
 
 ## Context
@@ -24,7 +28,7 @@ Examples:
 
 ## What you've considered (optional)
 
-<!-- 
+<!--
 If you've thought about options, share them. If not, that's totally fine!
 We're here to help you think through it.
 -->
@@ -42,5 +46,3 @@ We're here to help you think through it.
 💡 **Tip:** For urgent requests, add the `urgent` label. For decisions affecting all platforms, consider adding `high-impact`.
 
 🤝 **We're here to help!** Response time target: 2 weeks for initial feedback.
-
-
