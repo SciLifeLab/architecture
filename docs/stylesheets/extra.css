@@ -1,0 +1,132 @@
+/* SciLifeLab Visual Identity Colors */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+:root {
+  /* SciLifeLab Brand Colors */
+  --scilifelab-lime: #a7c947;
+  --scilifelab-lime-dark: #8bb030;
+  --scilifelab-teal: #045c64;
+  --scilifelab-teal-dark: #034750;
+
+  /* MkDocs Material overrides */
+  --md-primary-fg-color: #045c64;
+  --md-primary-fg-color--light: #067a85;
+  --md-primary-fg-color--dark: #034750;
+  --md-accent-fg-color: #a7c947;
+
+  /* Typography */
+  --md-text-font: "Open Sans", -apple-system, BlinkMacSystemFont, Helvetica,
+    Arial, sans-serif;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #045c64;
+  --md-accent-fg-color: #a7c947;
+  --md-typeset-a-color: #a7c947;
+}
+
+/* Header - Teal */
+.md-header {
+  background-color: #045c64;
+}
+
+/* Navigation tabs */
+.md-tabs {
+  background-color: #034750;
+}
+
+/* Logo sizing */
+.md-header__button.md-logo img {
+  height: 1.6rem;
+  width: auto;
+}
+
+/* Links in content */
+.md-typeset a:not(.md-button) {
+  color: #045c64;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button) {
+  color: #a7c947;
+}
+
+/* Headings */
+.md-typeset h2 {
+  border-bottom: 2px solid #a7c947;
+  padding-bottom: 0.4rem;
+}
+
+/* Tables */
+.md-typeset table:not([class]) th {
+  background-color: #045c64;
+  color: white;
+}
+
+/* Code */
+.md-typeset code {
+  background-color: rgba(4, 92, 100, 0.1);
+  color: #045c64;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background-color: rgba(167, 201, 71, 0.15);
+  color: #c5db7a;
+}
+
+/* Buttons - Primary (lime) */
+.md-typeset .md-button--primary {
+  background-color: #a7c947;
+  border-color: #a7c947;
+  color: #1a1a1a;
+}
+
+.md-typeset .md-button--primary:hover {
+  background-color: #8bb030;
+  border-color: #8bb030;
+}
+
+/* Buttons - Secondary in dark mode: Teal with white text */
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary) {
+  background-color: #045c64;
+  border-color: #045c64;
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"]
+  .md-typeset
+  .md-button:not(.md-button--primary):hover {
+  background-color: #067a85;
+  border-color: #067a85;
+  color: #ffffff;
+}
+
+/* Footer */
+.md-footer {
+  background-color: #045c64;
+}
+
+.md-footer-meta {
+  background-color: #034750;
+}
+
+/* Admonitions */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: #045c64;
+}
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: #a7c947;
+}
+
+/* Active nav item */
+.md-nav__link--active {
+  color: #045c64 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #a7c947 !important;
+}
