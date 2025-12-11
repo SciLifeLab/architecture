@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://scilifelab.github.io/architecture/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2025-12-11</lastmod>
     </url>
     <url>
          <loc>https://scilifelab.github.io/architecture/decisions/0001-record-architecture-decisions/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2025-12-11</lastmod>
     </url>
     <url>
          <loc>https://scilifelab.github.io/architecture/decisions/0002-use-cc-by-sa-4-0-license/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2025-12-11</lastmod>
     </url>
     <url>
          <loc>https://scilifelab.github.io/architecture/decisions/0003-use-single-process-approach-for-architecture-requests/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2025-12-11</lastmod>
     </url>
     <url>
          <loc>https://scilifelab.github.io/architecture/decisions/0004-use-mkdocs-material-for-documentation-site/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2025-12-11</lastmod>
+    </url>
+    <url>
+         <loc>https://scilifelab.github.io/architecture/decisions/templates/template/</loc>
+         <lastmod>2025-12-11</lastmod>
     </url>
 </urlset>
