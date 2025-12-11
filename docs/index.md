@@ -1,8 +1,6 @@
-# SciLifeLab Architecture Board
+# Architecture Guidance for SciLifeLab
 
-> Ensuring interoperable, sustainable, and FAIR infrastructure across SciLifeLab's federated platforms.
-
-The Architecture Board provides technical governance and guidance for SciLifeLab infrastructure, enabling seamless collaboration while respecting platform autonomy. We support decision-making for technical architecture across all SciLifeLab platforms and services.
+> Get expert help designing interoperable, sustainable, and FAIR infrastructure across SciLifeLab's federated platforms.
 
 !!! question "Need Architecture Help?"
 
@@ -14,29 +12,24 @@ The Architecture Board provides technical governance and guidance for SciLifeLab
     [:octicons-comment-discussion-16: Start a Discussion](https://github.com/SciLifeLab/architecture/discussions){ .md-button }
     [:octicons-mail-16: architecture@scilifelab.se](mailto:architecture@scilifelab.se){ .md-button }
 
-## What We Do
+## How We Can Help
+
+| Situation                         | What You'll Get                                         |
+| --------------------------------- | ------------------------------------------------------- |
+| Starting a new project            | Guidance on technology choices and integration patterns |
+| Designing cross-platform features | Coordination support and best practices                 |
+| Facing a technical decision       | Review and documented recommendation (ADR)              |
+| Unsure about standards            | Clarification on SciLifeLab technical conventions       |
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#a7c947', 'primaryTextColor': '#1a1a1a', 'primaryBorderColor': '#8bb030', 'lineColor': '#045c64', 'secondaryColor': '#e8f5e9', 'tertiaryColor': '#f5f5f5', 'fontFamily': 'Open Sans'}}}%%
 graph LR
-    A[Project Team] -->|Question| B[Architecture Board]
+    A[Your Team] -->|Question| B[Architecture Board]
     B -->|Guidance| A
     B -->|Decision| C[ADR]
     C -->|Published| D[Documentation]
     D -->|Informs| A
 ```
-
-### :material-compass: Architecture Guidance
-
-Best practices for technical design, integration patterns, and technology choices.
-
-### :material-file-document-edit: Decision Records
-
-Transparent documentation of all significant architectural decisions (ADRs).
-
-### :material-connection: Cross-Platform Coordination
-
-Facilitate collaboration to ensure coherent architecture across SciLifeLab.
 
 ## Recent Decisions
 
@@ -47,7 +40,9 @@ Facilitate collaboration to ensure coherent architecture across SciLifeLab.
 | [ADR-0002: CC BY-SA 4.0](decisions/0002-use-cc-by-sa-4-0-license.md)                                | Accepted | Use CC BY-SA 4.0 license for content       |
 | [ADR-0001: Record Decisions](decisions/0001-record-architecture-decisions.md)                       | Accepted | Record architecture decisions as ADRs      |
 
-## Board Members
+## About the Architecture Board
+
+The Architecture Board provides technical governance and guidance for SciLifeLab infrastructure, enabling seamless collaboration while respecting platform autonomy.
 
 | Name              | Affiliation | Role                                                                                                                 |
 | ----------------- | ----------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -65,7 +60,7 @@ The Architecture Board welcomes input from all SciLifeLab teams and the broader 
 
 !!! tip "How to Contribute"
 
-    1. **Not sure yet?** Start a [GitHub Discussion](https://github.com/SciLifeLab//architecture/discussions) or email [architecture@scilifelab.se](mailto:architecture@scilifelab.se)
+    1. **Not sure yet?** Start a [GitHub Discussion](https://github.com/SciLifeLab/architecture/discussions) or email [architecture@scilifelab.se](mailto:architecture@scilifelab.se)
     2. **Have a question?** Open a [GitHub Issue](https://github.com/SciLifeLab/architecture/issues) to get guidance
     3. **Proposing a change?** Create an ADR following our [template](decisions/0001-record-architecture-decisions.md)
     4. **Found an issue?** Submit a pull request with your suggested improvements
