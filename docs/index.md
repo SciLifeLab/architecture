@@ -49,13 +49,13 @@ Facilitate collaboration to ensure coherent architecture across SciLifeLab.
 
 ## Board Members
 
-| Name              | Affiliation | Role                                                                                                                 |
-| ----------------- | ----------- | -------------------------------------------------------------------------------------------------------------------- |
-| Jonas Hagberg     | NBIS        | Chair, [Certified IT Architect](https://app.diplomasafe.com/sv-SE/diploma/d2e66e08f42702140adfb61a0fb2315ef6d93ccb8) |
-| Johan Viklund     | NBIS        | Technical Expert                                                                                                     |
-| Jonas Söderberg   | NBIS SCoRe  | Technical Expert                                                                                                     |
-| Johannes Alneberg | NGI         | Technical Expert                                                                                                     |
-| Jonas Windhager   | NBIS BIIF   | Technical Expert                                                                                                     |
+| Name              | Affiliation | Role             |
+|-------------------|-------------|------------------|
+| Miroslaw Dylag    | Data Centre | Technical Expert |
+| Johan Viklund     | NBIS        | Technical Expert |
+| Jonas Söderberg   | NBIS SCoRe  | Technical Expert |
+| Johannes Alneberg | NGI         | Technical Expert |
+| Jonas Windhager   | NBIS BIIF   | Technical Expert |
 
 _Adjunct members: Björn Nystedt, Hanna Kultima (Integrated Data Services Project Management Team)_
 
